@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WB Online Movie</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1e1e1e;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #facc15;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    nav {
+      background-color: #262626;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #facc15;
+    }
+    .section {
+      padding: 40px 20px;
+    }
+    .section h2 {
+      border-bottom: 2px solid #facc15;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .movies-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 20px;
+    }
+    .movie {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      padding: 10px;
+    }
+    .movie img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .movie-title {
+      margin: 10px 0 5px;
+      font-weight: bold;
+      font-size: 1em;
+    }
+    .download-btn {
+      background-color: #facc15;
+      color: #000;
+      padding: 5px 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 5px;
+      font-weight: bold;
+    }
+    .download-btn:hover {
+      background-color: #eab308;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WB Online Movie</h1>
+    <p>Your Ultimate Movie Download Hub</p>
+  </header>
+
+  <nav>
+    <a href="#bengali">Bengali</a>
+    <a href="#hindi">Hindi</a>
+    <a href="#hollywood">Hollywood</a>
+    <a href="#south">South</a>
+    <a href="#ott">OTT Webseries</a>
+    <a href="#old">Old Movies</a>
+  </nav>
+
+  <div class="section" id="bengali">
+    <h2>Bengali Movies</h2>
+    <div class="movies-grid">
+      <div class="movie">
+        <img src="https://via.placeholder.com/150x220?text=Bengali+Movie" alt="Movie Poster">
+        <div class="movie-title">Bengali Movie 1</div>
+        <a href="#" class="download-btn">Download</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="hindi">
+    <h2>Hindi Movies</h2>
+    <div class="movies-grid">
+      <div class="movie">
+        <img src="https://via.placeholder.com/150x220?text=Hindi+Movie" alt="Movie Poster">
+        <div class="movie-title">Hindi Movie 1</div>
+        <a href="#" class="download-btn">Download</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="hollywood">
+    <h2>Hollywood Movies</h2>
+    <div class="movies-grid">
+      <div class="movie">
+        <img src="https://via.placeholder.com/150x220?text=Hollywood+Movie" alt="Movie Poster">
+        <div class="movie-title">Hollywood Movie 1</div>
+        <a href="#" class="download-btn">Download</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="south">
+    <h2>South Movies</h2>
+    <div class="movies-grid">
+      <div class="movie">
+        <img src="https://via.placeholder.com/150x220?text=South+Movie" alt="Movie Poster">
+        <div class="movie-title">South Movie 1</div>
+        <a href="#" class="download-btn">Download</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="ott">
+    <h2>OTT Webseries</h2>
+    <div class="movies-grid">
+      <div class="movie">
+        <img src="https://via.placeholder.com/150x220?text=OTT+Webseries" alt="Webseries Poster">
+        <div class="movie-title">Webseries 1</div>
+        <a href="#" class="download-btn">Download</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="old">
+    <h2>Old Movies</h2>
+    <div class="movies-grid">
+      <div class="movie">
+        <img src="https://via.placeholder.com/150x220?text=Old+Movie" alt="Old Movie Poster">
+        <div class="movie-title">Old Movie 1</div>
+        <a href="#" class="download-btn">Download</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
